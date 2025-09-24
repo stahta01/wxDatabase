@@ -1,8 +1,8 @@
 #ifndef _WX_DATABASE_WXPREC_H_
 #define _WX_DATABASE_WXPREC_H_
 
-#ifndef	_WINSOCKAPI_
-#define	_WINSOCKAPI_
+#ifdef __WIN32__
+    #include "wx/msw/wrapwin.h"
 #endif
 
 #include "wx/wxprec.h"
